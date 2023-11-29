@@ -17,7 +17,7 @@ export const REVALIDATION_TIMEOUT_SECONDS: number = 1 * 60 * 60;
 // The "about us" article ID.
 //
 // TODO
-export const ABOUT_US_ARTICLE_ID: number = 123;
+export const ABOUT_US_ARTICLE_ID: number = 15132485269789;
 
 // The information hierary of the website.
 // Set to true for the category -> section -> article hierarchy, similar to that of United for Ukraine.
@@ -41,7 +41,7 @@ export const SECTION_ICON_NAMES: { [key: string]: string } = {
 };
 
 // A list of category IDs that the site should not display.
-export const CATEGORIES_TO_HIDE: number[] = [13727555509021];
+export const CATEGORIES_TO_HIDE: number[] = [13727555509021, 15132448426781];
 
 // A map from a locale code to Zendesk locale id used for dynamic content translations.
 // https://developer.zendesk.com/api-reference/ticketing/account-configuration/locales/

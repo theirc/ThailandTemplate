@@ -7,7 +7,7 @@ const nextConfig = {
   swcMinify: false,
   // Keep in sync with locales configured in /lib/locale.ts.
   i18n: {
-    locales: ['default', 'en-us' /* TODO */],
+    locales: ['default', 'en-us', 'my'],
     defaultLocale: 'default',
     localeDetection: false,
   },
