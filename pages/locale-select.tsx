@@ -16,7 +16,7 @@ const langs: Lang[] = [
   },
   {
     langShort: 'my',
-    langLong: 'Burmese',
+    langLong: 'မြန်မာ',
   },
 ];
 
