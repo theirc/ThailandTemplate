@@ -22,12 +22,15 @@ const nextConfig = {
       },
     ];
   },
-  // TODO: add images url to whitelist them
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'signpost-thailand.zendesk.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'directus-irc.azurewebsites.net',
       },
     ],
   },
