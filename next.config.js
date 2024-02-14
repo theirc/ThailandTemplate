@@ -7,7 +7,7 @@ const nextConfig = {
   swcMinify: false,
   // Keep in sync with locales configured in /lib/locale.ts.
   i18n: {
-    locales: ['default', 'en-us' /* TODO */],
+    locales: ['default', 'en-us', 'my'],
     defaultLocale: 'default',
     localeDetection: false,
   },
@@ -22,15 +22,18 @@ const nextConfig = {
       },
     ];
   },
-  // TODO: add images url to whitelist them
-  // images: {
-  //   remotePatterns: [
-  //     {
-  //       protocol: 'https',
-  //       hostname: 'signpost-greece.zendesk.com',
-  //     },
-  //   ],
-  // },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'signpost-thailand.zendesk.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'directus-irc.azurewebsites.net',
+      },
+    ],
+  },
   publicRuntimeConfig: {
     version: pack.dependencies['@ircsignpost/signpost-base'],
   },
@@ -43,9 +46,8 @@ module.exports = withLess({
       // See full list of Ant styles here:
       // https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
       modifyVars: {
-        // TODO: Update theme colors
-        'primary-color': '#51258F',
-        'secondary-color': '#854ECA',
+        'primary-color': '#609292',
+        'secondary-color': '#609292',
         'accent-color': '#13C2C2',
         'info-color': '@accent-color',
         'alert-info-bg-color': '@accent-color',
