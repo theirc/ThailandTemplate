@@ -4,6 +4,16 @@ function Document() {
   return (
     <Html>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="d3h6p-x8RKvg7lpGRUX9-f2Rejl7j_HaBQZYhEnU91E"
+        />
+        <meta property="og:title" content="Infotadar" />
+        <meta property="og:description" content="Infotadar Website" />
+        <meta
+          property="og:image"
+          content="https://infotadar.info/api/og-image"
+        />
         <script
           src="https://kit.fontawesome.com/027db3ea3f.js"
           crossOrigin="anonymous"
