@@ -162,15 +162,14 @@ export function populateServiceMapStrings(dynamicContent: {
     allPopulationsOption: dynamicContent['default_all_populations_option'],
     allAccessibilitiesOption:
       dynamicContent['default_all_accessibilities_option'],
-    distanceAwayStrings: {
-      informationTooltip: dynamicContent['default_distance_away_tooltip'],
-    },
+
     popupStrings: populatePopupStrings(dynamicContent),
-    labelSearchInput: { label: dynamicContent['default_seach_input_text'] },
+    distanceAwayStrings: { informationTooltip: '' },
     labelAccessibility: dynamicContent['default_accessibility_label'],
     labelPopulations: dynamicContent['default_populations_label'],
     labelProvider: dynamicContent['default_providers_label'],
     labelServicesTypes: dynamicContent['default_service_type_label'],
+    searchListString: dynamicContent['default_search_hint'],
   };
 }
 
