@@ -4,10 +4,7 @@ function Document() {
   return (
     <Html>
       <Head>
-        <meta
-          name="google-site-verification"
-          content="YPTDLQQpPXtuYPkp6iGwuIjCpLVXlJ5-zTifP_6tH4I"
-        />
+        <meta name="google-site-verification" content="iqfhVrmTV5xFJtBG2Z_sF_Uw_2HuoMfqQQEwXUzoEx0" />
         <meta property="og:title" content="Infotadar" />
         <meta property="og:description" content="Infotadar Website" />
         <meta
